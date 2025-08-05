@@ -1,14 +1,11 @@
 import "./App.css";
 import ArrowRight from "./assets/arrow-right.svg";
+import Image from "./img/spacejoy-YqFz7UMm8qE-unsplash.jpg";
 function App() {
   return (
     <>
       <div className={"container"}>
-        <img
-          src="/src/img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
-          alt="logo"
-          width={"336"}
-        />
+        <img src={Image} alt="logo" width={"336"} />
         <div className={"bg-white flex gap-3 flex-col px-4 py-6 w-[336px]"}>
           <div className={"flex flex-col gap-2"}>
             <div>
